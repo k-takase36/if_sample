@@ -67,17 +67,41 @@
 #   puts "勇者のHPは10より下だ"
 # end
 
-hp = 3
+# hp = 3
 
-if hp > 10
-  puts "勇者は元気だ"
-# 複数の条件を指定するときに使う
-elsif hp > 5
-  puts "勇者は弱っている"
-elsif hp > 3
-  puts "勇者はかなり弱っている"
-elsif hp > 0
-  puts "勇者は瀕死だ"
-else
-  puts "勇者は死んだ"
-end
+# if hp > 10
+#   puts "勇者は元気だ"
+# # 複数の条件を指定するときに使う
+# elsif hp > 5
+#   puts "勇者は弱っている"
+# elsif hp > 3
+#   puts "勇者はかなり弱っている"
+# elsif hp > 0
+#   puts "勇者は瀕死だ"
+# else
+#   puts "勇者は死んだ"
+# end
+
+# month = 6
+
+# # 比較対象をcaseの後に記述
+# case month
+# # 比較対象と比較する値を記述
+# when 3..5
+#   puts "春です"
+# when 6..8
+#   puts "夏です"
+# when 9..11
+#   puts "秋です"
+# when 12..2
+#   puts "冬です"
+# else
+#   puts "不正な値です"
+# end
+
+hp = 11
+
+# puts "勇者のHPは10以上だ" if hp >= 10
+
+# 条件式(true or false) ? trueの時に行いたい処理 : falseの時に行いたい処理
+puts hp > 10 ? "勇者のHPは10より大きいです" : "勇者のHPは10以下です"
