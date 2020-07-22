@@ -33,7 +33,7 @@ end
 
 # 合計金額の表示（割引含む）
   total_price = vegetable_num * selected_vegetable[:price]
-  discounted_total_price = (total_price * 0.9).round
+  discounted_total_price = (total_price * 0.8).round
 
   if vegetable_num <= 0
     puts "0は不正な値で購入できません。再度1以上を入力お願いします。"
