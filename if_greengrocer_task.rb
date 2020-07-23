@@ -16,11 +16,11 @@ end
 # 商品を選択する表示
 while true 
   print "商品を選択 >"
-  vegetable_num = gets.chomp.to_i
+  vegetable_product = gets.chomp.to_i
   break 
 end
 
-selected_vegetable = vegetables[vegetable_num -1] 
+selected_vegetable = vegetables[vegetable_product -1] 
 
 puts "#{selected_vegetable[:name]}ですね、何個買いますか？"
 
